@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1602916827344'); /* IE9 */
+  src: url('iconfont.eot?t=1602916827344#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPgAAsAAAAAB8QAAAOTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDGIJxATYCJAMMCwgABCAFhG0HTBvNBsg+QTwiDHX8RukQXeaZXfvYkDozwdeTB+vX1+LvHBUP/+1Hu29m1kTiRpNMgk2IJTKRLtY2NEQ0FEKj++mbOH9Sp6lArBLz1jvXkRWH5FOUEsD/bwA8AsCENHGuRVGdjzZOb9BqHQ5ss8YG24f++QMXyIt9AwTIwIea3G+BZYEF8uCWcXic1QtCfbl6gCO3fvcAAcJKAYKmHkixv1eEy/9zOb1pTQvnB8rlrjVo7M1RL8A4oID2xqgtWiBxYtowdtVSHNRxAo1GRdDbLapoAKYKPC4Ql0TMAdOMUWmoDPVCbcXSIu5A1aer6TvgdvD5+AcWQVKT4anHLhbKQM5PZtWoqyQCIZ/ODnUVGcuAQpysdB4wiJLLDDTaOsPmwlpFSFNFviKQOZpa8odHEkQtXN4M5pE2XZScyRI9UHHVR2VQiwZcATwWZnTjZbUt3L7MZpx7/vFefP1nb/fpyzFBdERn6YpXdE6FeYcGr0+HugcHrnSTd5+6Z1vOi3ljNN2bmQ+6pSubTpRnHW3XD12+fvNe92XN3P7twzdu9xjnqbNxQXo8bp4Mj+qH3tSBgYPThwcPcYWaizYfylEm/qNXgo/UPa7njx/0b6TrHy9N60NK5Bhczzc+XuRdx02D1ocf7/bEeP+JnDFIvOvfsd/ie9M2Pohohp5f2Cxu0bu8kCNUZUVkmf+tCrfylP3n9xU+QSKQ+n9zmsrXupZ3KA3Kab9KgsTNCBx3PEMuIUfI/rOtUUy6Sh3kaHZ08iXkBAWASv5PAFQd/rHveE51I7dZPUEBPz71JghUiu4l6iVU+f+Rd2wojhKbcrFkTOZlshOM756GtKb3V6qh0/vh7h4gsYd6TQ4hqTMCWb1ptJDLUKPJCtSqtwGNlhSvbtKFMhClAYtGAYR2xyFp9Q2ydvfQQr6DGr1+Qq32YGh0PLq2bDJbab5DEceQDLZ2QpEnGoFamHlYWYewTsXRtDLgNyGqFSMwNiomnylGGkSnmKFtw3GMCVCgRA2LwGlIpSJQokSBeBYlZ0xKi44Wqi4UxRM1MLeDQjgMIgO16gSJeISGIFoz5oX310EwHRUObahrSzZBKC2xcyhWlJgOaLFO06nuVs7RaoPFYRgBJKAINagI2BEVSRKQVD1IAeExUeQD4pI00aiZ0FUXtbxB/X7boBGeniNFjqLxIqfBMk4hii5OmOjadbwcddG+GiyJmkieSJ0AAAA=') format('woff2'),
+  url('iconfont.woff?t=1602916827344') format('woff'),
+  url('iconfont.ttf?t=1602916827344') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1602916827344#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fangdajing:before {
+  content: "\e63d";
+}
+
+.icon-gouwuchezhengpin-copy:before {
+  content: "\e611";
+}
+

@@ -36,7 +36,10 @@ const libHandler = () => {
 	return gulp.src("./src/lib/**")
 		.pipe(gulp.dest("./dist/lib"))
 }
-
+const interfaceHandler = () => {
+	return gulp.src("./src/interface/**")
+		.pipe(gulp.dest("./dist/interface"))
+}
 const htmlmin = require("gulp-htmlmin")
 const htmlHandler = () => {
 	return gulp.src("./src/pages/*.html")
@@ -59,6 +62,7 @@ const watchHandler = () => {
 	gulp.watch('./src/lib/*.js', libHandler);
 	// 也需要监控sass文件夹里面的文件变化
 	gulp.watch('./src/sass/*.scss', sassHandler);
+	gulp.watch("./src/interface/**",interfaceHandler)
 
 }
 
@@ -78,7 +82,7 @@ const sassHandler = () => {
 module.exports.default = gulp.series(
 	delHandler,
 	gulp.parallel(
-		cssHandler, jsHandler, htmlHandler, imgHandler, libHandler, sassHandler
+		cssHandler, jsHandler, htmlHandler, imgHandler, libHandler, sassHandler,interfaceHandler
 	),
 	watchHandler
 )

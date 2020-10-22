@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="../css/index.css" rel="stylesheet" />
+		<script src="../lib/jquery.min.js"></script>
+		<script src="../lib/swiper.js"></script>
+		<link href="../lib/swiper.css" rel="stylesheet" />
+		<link href="../font_2136764_nkyrpurwx2/iconfont.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<div id="box">
+			<div class="header">
+				<div class="head container">
+					<div class="topleft-nav">
+						<ul>
+							<li><a href="javascript:;"><span>小米商城</span></a></li>
+							<li><a href="javascript:;"><span>MIUI</span></a></li>
+							<li><a href="javascript:;"><span>IoT</span></a></li>
+							<li><a href="javascript:;"><span>云服务</span></a></li>
+							<li><a href="javascript:;"><span>金融</span></a></li>
+							<li><a href="javascript:;"><span>有品</span></a></li>
+							<li><a href="javascript:;"><span>小爱开放平台</span></a></li>
+							<li><a href="javascript:;"><span>企业团购</span></a></li>
+							<li><a href="javascript:;"><span>资质证照</span></a></li>
+							<li><a href="javascript:;"><span>协议规则</span></a></li>
+							<li><a href="javascript:;"><span>下载app</span></a></li>
+							<li><a href="javascript:;"><span>智能生活</span></a></li>
+							<li><a href="javascript:;"><span>Select Location</span></a></li>
+						</ul>
+
+					</div>
+					<div class="topright-nav">
+						<ul>
+							<li><a href="./login.html"><span>登录</span></a></li>
+							<li><a href="./register.html"><span>注册</span></a></li>
+							<li><a href="javascript:;"><span>消息通知</span></a></li>
+						</ul>
+
+					</div>
+					<div class="cart">
+						<p><em class="icon-gouwuchezhengpin-copy iconfont"></em><span><a href="cart.html">购物车</a></span></p>
+
+					</div>
+				</div>
+
+			</div>
+			<!-- header结束 -->
+			<div class="container nav">
+				<div class="logo"><img src="../images/logo.png"></div>
+				<div class="headnav">
+					<ul>
+						<li><a href="javascript:;">小米手机</a>
+							<div class="t1"></div>
+						</li>
+
+						<li><a href="javascript:;">RedMi红米</a>
+							<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">电视</a>
+							<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">笔记本</a>
+							<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">家电</a>
+						<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">路由器</a>
+						<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">智能硬件</a>
+						<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">服务</a>
+						<div class="t1"></div>
+						</li>
+						<li><a href="javascript:;">社区</a>
+						<div class="t1"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+					<form>
+						<input class="sear" type="text" name="" id="" value="" />
+						<input class="but" type="submit" name="" id="" value="" />
+						<em class="icon-fangdajing iconfont"><a href="javascript:;"></a></em>
+					</form>
+
+				</div>
+			</div>
+			<!-- container nav -->
+			<div class="container lunbo">
+				<div class="tab">
+					<ul>
+						<li>手机 电话卡<span>&gt;</span>
+
+						</li>
+						<li>手机 电话卡<span>&gt;</span>
+
+						</li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+						<li>手机 电话卡<span>&gt;</span></li>
+					</ul>
+
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide"><img src="../images/lb1.jpg"></div>
+						<div class="swiper-slide"><img src="../images/lb2.jpg"></div>
+						<div class="swiper-slide"><img src="../images/3.jpg"></div>
+						<div class="swiper-slide"><img src="../images/4.jpg"></div>
+						<div class="swiper-slide"><img src="../images/5.jpg"></div>
+						<div class="swiper-slide"><img src="../images/6.jpg"></div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+					<div class="swiper-button-next"></div>
+					<!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+					<div class="swiper-pagination"></div>
+				</div>
+
+			</div>
+
+			<div class="main">
+
+				<div class="miaosha container">
+					<h2>小米闪购</h2>
+					<div class="row">
+						<div class="set">
+							<h3>秒杀</h3>
+							<img class="img1" src="../images/light.png">
+							<p>距离结束还有</p>
+							<div class="time-item">
+
+								<strong id="hour_show">0时</strong>
+								<strong id="minute_show">0分</strong>
+								<strong id="second_show">0秒</strong>
+							</div>
+						</div>
+						<div class="d2">
+							<img src="../images/bsl.png">
+							<p>彩色变色龙 常规号</p>
+							<span>彩色变色龙</span>
+							<p>29元<em>79.9元</em></p>
+						</div>
+						<div class="d2">
+							<img src="../images/bsl.png">
+							<p>彩色变色龙 常规号</p>
+							<span>彩色变色龙</span>
+							<p>29元<em>79.9元</em></p>
+						</div>
+						<div class="d2">
+							<img src="../images/bsl.png">
+							<p>彩色变色龙 常规号</p>
+							<span>彩色变色龙</span>
+							<p>29元<em>79.9元</em></p>
+						</div>
+						<div class="d2">
+							<img src="../images/bsl.png">
+							<p>彩色变色龙 常规号</p>
+							<span>彩色变色龙</span>
+							<p>29元<em>79.9元</em></p>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="banner container">
+					<img src="../images/ban.jpg">
+				</div>
+				<div class="main2 container">
+					<div class="hd">
+						<h2>手机</h2>
+						<div class="more">
+							<a href=""><span>查看全部</span></a>
+							<img src="../images/jt.png">
+
+						</div>
+					</div>
+					<div class="row1">
+						<div class="left">
+							<img src="../images/mix.jpg">
+						</div>
+						<div class="rigtht">
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="banner container">
+					<img src="../images/ban.jpg">
+				</div>
+				<div class="main2 container">
+					<div class="hd">
+						<h2>手机</h2>
+						<div class="more">
+							<a href="#"><span>查看全部</span></a>
+							<img src="../images/jt.png">
+
+						</div>
+					</div>
+					<div class="row1">
+						<div class="left">
+							<img src="../images/mix.jpg">
+						</div>
+						<div class="rigtht">
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="banner container">
+					<img src="../images/ban.jpg">
+				</div>
+				<div class="main2 container">
+					<div class="hd">
+						<h2>手机</h2>
+						<div class="more">
+							<a href=""><span>查看全部</span></a>
+							<img src="../images/jt.png">
+
+						</div>
+					</div>
+					<div class="row1">
+						<div class="left">
+							<img src="../images/mix.jpg">
+						</div>
+						<div class="rigtht">
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s1.jpg"></dt>
+									<dd>
+										<p>小米10至尊</p>
+										<p>120W快充/120hz屏幕</p>
+										<p>5299元起</p>
+									</dd>
+								</dl>
+							</a>
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s2.jpg"></dt>
+									<dd>
+										<p>红米 K30至尊</p>
+										<p>120hz弹出屏</p>
+										<p>1999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s3.jpg"></dt>
+									<dd>
+										<p>黑鲨</p>
+										<p>骁龙865/120hz屏幕</p>
+										<p>3999元起</p>
+									</dd>
+								</dl>
+							</a>
+
+
+							<a href="buy.html">
+								<dl>
+									<dt><img src="../images/s4.jpg"></dt>
+									<dd>
+										<p>红米9A</p>
+										<p>5000Ah大电池</p>
+										<p>599元起</p>
+									</dd>
+								</dl>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="vd container">
+					<div class="hd">
+						<h2>视频</h2>
+						<div class="more">
+							<a href=""><span>查看全部</span></a>
+							<img src="../images/jt.png">
+
+						</div>
+					</div>
+					<div class="vdbox">
+						<a href="#">
+							<dl>
+								<dt><img src="../images/vd1.jpg"></dt>
+								<a href="#">
+									<div class="st"><img src="../images/start.png"></div>
+								</a>
+								<dd>
+									<h3 class="tit">Redmi 10X系列发布会</h3>
+									<p>Redmi 10X系列发布会</p>
+								</dd>
+							</dl>
+						</a>
+
+						<a href="#">
+							<dl>
+								<dt><img src="../images/vd2.jpg"></dt>
+								<a href="#">
+									<div class="st"><img src="../images/start.png"></div>
+								</a>
+								<dd>
+									<h3>小米10青春版发布会</h3>
+
+								</dd>
+							</dl>
+						</a>
+
+						<a href="#">
+							<dl>
+								<dt><img src="../images/vd3.jpg"></dt>
+								<a href="#">
+									<div class="st"><img src="../images/start.png"></div>
+								</a>
+								<dd>
+									<h3>小米10 8K 手机拍大片</h3>
+
+								</dd>
+							</dl>
+						</a>
+
+						<a href="#">
+							<dl>
+								<dt><img src="../images/vd4.jpg"></dt>
+								<a href="#">
+									<div class="st"><img src="../images/start.png"></div>
+								</a>
+								<dd>
+									<h3>小米10发布会</h3>
+
+								</dd>
+							</dl>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- main-->
+			<div class="footer container">
+				<div class="top">
+					<ul>
+						<a href="#">
+							<li><img src="../images/w1.png"> 预约维修服务<em>|</em></li>
+						</a>
+						<a href="#">
+							<li><img src="../images/w2.png">七天无理由退换<em>|</em></li>
+						</a>
+						<a href="#">
+							<li><img src="../images/w3.png"> 15天免费换货<em>|</em></li>
+						</a>
+						<a href="#">
+							<li><img src="../images/w4.png"> 满99元包邮<em>|</em></li>
+						</a>
+						<a href="#">
+							<li><img src="../images/w5.png">520余家售后网点<em>|</em></li>
+						</a>
+					</ul>
+				</div>
+				<div class="bottom">
+					<dl>
+						<a href="#">
+							<dt>帮助中心</dt>
+						</a>
+						<a href="#">
+							<dd>账户管理</dd>
+						</a>
+						<a href="#">
+							<dd>购物指南</dd>
+						</a>
+						<a href="">
+							<dd>订单操作</dd>
+						</a>
+					</dl>
+
+					<dl>
+						<a href="#">
+							<dt>服务支持</dt></a>
+						<a href="#">
+							<dd>售后政策</dd>
+						</a>
+						<a href="#">
+							<dd>自助服务</dd>
+						</a>
+						<a href="">
+							<dd>相关下载</dd>
+						</a>
+					</dl>
+
+					<dl>
+						<a href="#">
+							<dt>线下门店</dt></a>
+						<a href="#">
+							<dd>小米之家</dd>
+						</a>
+						<a href="#">
+							<dd>服务网点</dd>
+						</a>
+						<a href="">
+							<dd>授权体验店</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="#">
+							<dt>关于小米</dt></a>
+						<a href="#">
+							<dd>了解小米</dd>
+						</a>
+						<a href="#">
+							<dd>加入小米</dd>
+						</a>
+						<a href="">
+							<dd>投资者关系</dd>
+						</a>
+						<a href="">
+							<dd>企业社会责任</dd>
+						</a>
+						<a href="">
+							<dd>廉洁举报</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="#">
+							<dt>关注我们</dt></a>
+						<a href="#">
+							<dd>新浪微博</dd>
+						</a>
+						<a href="#">
+							<dd>官方微信</dd>
+						</a>
+						<a href="">
+							<dd>联系我们</dd>
+						</a>
+						<a href="">
+							<dd>公益基金会</dd>
+						</a>
+					</dl>
+					<dl>
+						<a href="#">
+							<dt>特色服务</dt></a>
+						<a href="#">
+							<dd>F码通道</dd>
+						</a>
+						<a href="#">
+							<dd>礼物码</dd>
+						</a>
+						<a href="">
+							<dd>防伪查询</dd>
+						</a>
+
+					</dl>
+					<div class="box2">
+						<p class="phone">400-100-5678</p>
+						<p>8:00-18:00（仅收市话费）</p>
+						<a class="a2" href="#">人工客服</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- 大盒子 -->
+
+	</body>
+</html>
+<script src="../js/index.js"></script>

@@ -1,0 +1,26 @@
+[{
+		"path": "../images/sj1.jpg",
+		"name": "小米10至尊纪念版",
+		"price": "5299"
+	},
+	{
+		"path": "../images/sj2.jpg",
+		"name": "小米10pro",
+		"price": "4999"
+	},
+	{
+		"path": "../images/sj3.jpg",
+		"name": "小米10",
+		"price": "3799"
+	},
+	{
+		"path": "../images/sj4.jpg",
+		"name": "小米10青春",
+		"price": "2799"
+	},
+	{
+		"path": "../images/sj5.jpg",
+		"name": "小米MIX Alpha",
+		"price": "12999"
+	}
+]

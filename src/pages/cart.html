@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+		<script src="../lib/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div class="box">
+			<div class="header">
+				<div class="hd container">
+					<a href="index.html" class="log"><img src="../images/logo.png"></a>
+					<div class="title">
+						<h2>我的购物车</h2>
+						<p>温馨提示:产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+					</div>
+					<div class="info">
+						<a href="login.html">登录</a>|<a href="register.html">注册</a>
+					</div>
+				</div>
+				<!-- hd -->
+			</div>
+			<!-- header -->
+			<div class="main">
+				<div class="list-head container">
+					<table>
+						<thead>
+							<tr>
+								<th><input class="checkall" type="checkbox" /></th>
+								<th>商品名称</th>
+								<th>商品图片</th>
+								<th>单价</th>
+								<th>数量</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+					<div class="money">
+						<p>总计：<em class="count"></em></p>
+					</div>
+				</div>
+				<div class="null container">
+					<img src="../images/c1.png">
+					<h1>您的购物车空空如也</h1>
+					<button type="button"><em>马上去购物</em></button>
+				</div>
+			</div>
+
+		</div>
+		<!-- box -->
+	</body>
+</html>
+<script src="../js/cart.js"></script>

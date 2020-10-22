@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	user-select: none;
+}
+
+.container {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 102px;
+	border-bottom: 3px solid rgb(253, 99, 16);
+}
+
+.hd {
+	height: 102px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hd img {
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 25px;
+
+}
+
+.title {
+	width: 491px;
+	height: 48px;
+	margin-left: 100px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.title h2 {
+	line-height: 48px;
+	float: left;
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.title p {
+	float: left;
+	line-height: 20px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 15px;
+	color: #757575;
+}
+
+.info {
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 25px;
+	text-align: center;
+	line-height: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.main {
+	min-height: 600px;
+	position: relative;
+	background: rgb(245, 245, 245);
+}
+
+.list-head {
+	min-height: 600px;
+
+}
+
+.null {
+	height: 273px;
+	padding-left: 558px;
+	margin-left: 200px;
+	z-index: 30;
+	overflow: hidden;
+	display: none;
+
+}
+
+.null h1 {
+	margin: 70px 0 0 0;
+	font-size: 36px;
+	color: #b0b0b0;
+}
+
+.null button {
+	width: 180px;
+	height: 50px;
+	margin-top: 30px;
+	background-color: rgb(253, 99, 16);
+	cursor: pointer;
+}
+
+.null em {
+	font-size: 14px;
+	font-style: normal;
+	color: #fff;
+}
+
+.null img {
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+
+.log {
+	cursor: pointer;
+}
+
+.list-head img {
+	width: 50px;
+	height: 50px;
+}
+
+table {
+	width: 1226px;
+	text-align: center;
+
+}
+
+table thead th {
+	background-color: #CCE8EB;
+	width: 100px;
+}
+
+.add,
+.cut,
+.del {
+	cursor: pointer;
+}
+
+.money {
+	width: 200px;
+	height: 60px;
+	border: 1px solid #ccc;
+	margin-top: 100px;
+	margin-left: 1100px;
+	text-align: center;
+	line-height: 60px;
+}
